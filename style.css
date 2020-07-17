@@ -6,6 +6,10 @@ html, body {
   font-family: 'Poppins', sans-serif;
   color: #222;
 }
+.navbar-brand{
+  height: 5px;
+  width: 5px;
+}
 .navbar{
   padding: .8rem;
 }

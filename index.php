@@ -1,48 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Complete Bootstrap 4 Website Layout</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-	<link href="style.css" rel="stylesheet">
+	<?php include 'includes/head.php';?>
 </head>
 <body>
+<?php include 'includes/navbar.php';?>
 
-<!-- Navigation -->
-<nav class="navbar navbar-extend-md navbar-light bg-light sticky-top">
-	<div class="container-fluid">
-		<a class="navbar-brand" href="#"> <img src="./img/logo.png" /></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" 
-		data-target="#navbarResponsive">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse" id="navbarResponsive">
-		<ul class="navbar-nav ml-auto">
-			<li class="nav-item">
-			<a class="nav-link" href="#">Home</a>
-			</li>
-			<li class="nav-item">
-			<a class="nav-link" href="#">About</a>
-			</li>
-			<li class="nav-item">
-			<a class="nav-link" href="#">Services</a>
-			</li>
-			<li class="nav-item">
-			<a class="nav-link" href="#">Team</a>
-			</li>
-			<li class="nav-item">
-			<a class="nav-link" href="#">Connect</a>
-			</li>
-
-		</ul>	
-	</div>
-	</div>
-</nav>
 
 <!--- Image Slider -->
 <div id="slides" class="carousel slide" data-ride="carousel">
@@ -184,7 +147,7 @@
 <div class="row padding">
 	<div class="col-md-4">
 	<div class="card">
-		<img class="card-img-top" src="/img/team1.png" />
+		<img class="card-img-top" src="img/team1.png" />
 		<div class="card-body">
 			<h4 class="card-tittle">Jhon Doe</h4>
 			<p class="card-text">Joe is a internet intrepreneur with almost 20 years of experience.</p>
@@ -194,7 +157,7 @@
 	</div>
 	<div class="col-md-4">
 	<div class="card">
-		<img class="card-img-top" src="/img/team2.png" />
+		<img class="card-img-top" src="img/team2.png" />
 		<div class="card-body">
 			<h4 class="card-tittle">Mary Jo</h4>
 			<p class="card-text">Mary is a designer with almost 10 years of digital design experience.</p>
@@ -204,7 +167,7 @@
 	</div>
 	<div class="col-md-4">
 		<div class="card">
-		<img class="card-img-top" src="/img/team3.png" />
+		<img class="card-img-top" src="img/team3.png" />
 		<div class="card-body">
 			<h4 class="card-tittle">Phil Ho</h4>
 			<p class="card-text">Phil is a developer with over 5 years od
@@ -229,7 +192,7 @@
 			And while it may seem like magic, we've go it down to a science.</p>
 	</div>
 	<div class="col-lg-6">
-		<img src="/img/bootstrap2.png" class="img-fluid" />
+		<img src="img/bootstrap2.png" class="img-fluid" />
 	</div>
 </div>
 <hr class="my-4">
@@ -251,43 +214,7 @@
 	</div>
 </div>
 </div>
-
-<!--- Footer -->
-<footer>
-<div class="container-fluid padding">
-<div class="row text-center">
-	<div class="col-md-4">
-		<img src="/img/w3newbie.png" />
-		<hr class="light">
-		<p>555-555-5555</p>
-		<p>email.myemail.com</p>
-		<p>100 Street Name</p>
-		<p>City, State, 000</p>
-	</div>
-	<div class="col-md-4">
-		<hr class="light">
-		<h5>Our Hours</h5>
-		<hr class="light">
-		<p>Monday 9am-5am</p>
-		<p>Saturday 10am-4am</p>
-		<p>Sanday closed</p>
-		
-	</div>
-	<div class="col-md-4">
-		<hr class="light-100">
-		<h5>Service Area</h5>
-		<hr class="light">
-		<p>City, State, 0000</p>
-		<p>City, State, 1111</p>
-		<p>City, State, 2222</p>
-		<p>City, State, 4444</p>
-	</div>
-</div>
-</div>	
-</footer>
-
-
-
-
+<?php include 'includes/footer.php';?>
+<?php include 'includes/scripts.php';?>
 </body>
 </html>

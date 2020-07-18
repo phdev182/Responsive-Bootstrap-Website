@@ -1,9 +1,10 @@
 <!--- Footer -->
 <footer>
-<div class="container-fluid padding">
-<div class="row text-center">
+
+<div class="row text-center py-5">
 	<div class="col-md-4">
-		<img src="./img/logo1.png" />
+		<hr class="light">
+		<h5>Contact</h5>
 		<hr class="light">
 		<p>555-555-5555</p>
 		<p>email.myemail.com</p>

@@ -99,7 +99,7 @@
 			<a href="#" class="btn btn-primary">Learn More</a>
 	</div>
 	<div class="col-lg-6">
-		<img src="/img/desk.png" class="img-fluid" />
+		<img src="img/desk.png" class="img-fluid" />
 	</div>
 </div>	
 </div>
